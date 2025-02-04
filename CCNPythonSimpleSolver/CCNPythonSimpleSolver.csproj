@@ -16,7 +16,7 @@
         <None Update="CCNPythonSimpleSolver.py">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Update="sudoku.model.keras">
+        <None Update="sudoku.model.h5">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
     </ItemGroup>

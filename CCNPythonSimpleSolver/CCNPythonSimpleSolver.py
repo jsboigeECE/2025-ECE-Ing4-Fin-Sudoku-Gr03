@@ -9,7 +9,7 @@ from timeit import default_timer
 # Import le modèle train
 # model = keras.models.load_model('sudoku.model.keras')
 if 'modelPath' not in locals():
-    modelPath = 'sudoku.model.keras'
+    modelPath = 'sudoku.model.h5'
         
 model = keras.models.load_model(modelPath)
 
