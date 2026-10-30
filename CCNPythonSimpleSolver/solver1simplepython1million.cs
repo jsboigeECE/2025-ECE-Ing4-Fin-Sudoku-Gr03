@@ -52,9 +52,9 @@ public class solver1simplepython1million : PythonSolverBase
     {
         //declare your pip packages here
         InstallPipModule("numpy");
+        InstallPipModule("pandas");
         InstallPipModule("tensorflow");
         InstallPipModule("keras");
-        InstallPipModule("pandas");
         InstallPipModule("scikit-learn");
         base.InitializePythonComponents();
     }
